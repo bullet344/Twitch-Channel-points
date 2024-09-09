@@ -1,0 +1,17 @@
+09/09/24 11:08:41 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): raw.githubusercontent.com:443
+09/09/24 11:08:42 - DEBUG - urllib3.connectionpool - [_make_request]: https://raw.githubusercontent.com:443 "GET /rdavydov/Twitch-Channel-Points-Miner-v2/master/TwitchChannelPointsMiner/__init__.py HTTP/11" 200 125
+09/09/24 11:08:42 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__init__]: Twitch Channel Points Miner v2-1.9.7 (fork by rdavydov)
+09/09/24 11:08:42 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__init__]: https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2
+09/09/24 11:08:42 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Start session: '3c742a21-201a-4fba-a5b5-cbafdc053693'
+09/09/24 11:08:42 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: You'll have to login to Twitch!
+09/09/24 11:08:42 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Trying the TV login method..
+09/09/24 11:08:42 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): id.twitch.tv:443
+09/09/24 11:08:43 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/device HTTP/11" 200 164
+09/09/24 11:08:43 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Open https://www.twitch.tv/activate
+09/09/24 11:08:43 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: and enter this code: HDJVCKCY
+09/09/24 11:08:43 - INFO - TwitchChannelPointsMiner.classes.TwitchLogin - [login_flow]: Hurry up! It will expire in 30 minutes!
+09/09/24 11:08:48 - DEBUG - urllib3.connectionpool - [_make_request]: https://id.twitch.tv:443 "POST /oauth2/token HTTP/11" 400 49
+09/09/24 11:08:51 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [end]: CTRL+C Detected! Please wait just a moment!
+09/09/24 11:08:51 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__print_report]: Ending session: '3c742a21-201a-4fba-a5b5-cbafdc053693'
+09/09/24 11:08:51 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__print_report]: Logs file: C:\Users\LENOVO\Desktop\Twitch-Channel-Points-Miner-Render-master\logs\itz_jsf.log
+09/09/24 11:08:51 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [__print_report]: Duration 0:00:09.148243
