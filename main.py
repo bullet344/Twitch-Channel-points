@@ -61,7 +61,7 @@ twitch_miner = TwitchChannelPointsMiner(
             password="...",                                                            # Matrix password
             homeserver="matrix.org",                                                   # Matrix homeserver
             room_id="...",                                                             # Room ID
-            events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE, Events.BET_LOSE], # Only these events will be sent to the chat
+            events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE, Events.BET_LOSE, Events.CHAT_MENTION, Events.GAIN_FOR_CLAIM, Event.GAIN_FOR_WATCH, Event.GAIN_FOR_WATCH_STREAK ], # Only these events will be sent to the chat
         ),
         pushover=Pushover(
             userkey="YOUR-ACCOUNT-TOKEN",                                             # Login to https://pushover.net/, the user token is on the main page.
